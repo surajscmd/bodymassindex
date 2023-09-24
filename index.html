@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+
+        <h1 class="heding">Please provide your body measurements to calculate your Body Mass Index (BMI).</h1>
+        
+        <div class="inputcontiner">
+        <div class="wet-con">
+        <h4>Enter the weight in KG</h4>
+        <input type="number" class="weight input" placeholder="KG" name="" id="weight">
+         </div>
+
+        <div class="height-input">
+        
+        <div class="het-con">
+        <h4>Enter the Height in M</h4>
+        <input type="number" class="height input" placeholder="M" name="" id="height">
+        </div>
+        
+        <h5>OR</h5>
+        
+        <div class="het-con">
+        <h4>Enter the Height in Feet</h4>
+        <input type="number" class="height input" placeholder="feet" name="" id="heightinfeet">
+        </div>
+        </div>
+        
+        </div>
+
+        <button id="btn" class="button" onclick="calculate()">Find BMI</button>
+    
+        <div class="result-container" id="rescont">
+           <h3 class="rs">Result</h3>
+            <p id="result" class="result"></p>
+           <p id="scale" class="scale"></p>
+        </div>
+
+     </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

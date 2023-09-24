@@ -1,0 +1,92 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: rgb(223, 232, 213);
+}
+
+.heding{
+    color: rgb(145, 11, 150);
+}
+
+.container{
+    margin: 50px auto;
+    width: 500px;
+    text-align: center;
+    
+}
+
+.input{
+    width: 65px;
+    text-align: center;
+    height: 35px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 2px solid royalblue;
+}
+.input:focus{
+    outline: 1px solid royalblue;
+    
+}
+
+.button{
+
+    margin: 20px;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    background-color: chartreuse;
+    color: black;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.dnone{
+    display: none;
+}
+
+.result-container{
+    border: 3px solid rgb(145, 11, 150);
+    background-color: antiquewhite;
+}
+
+.rs{
+    font-size: 23px;
+    color: rgb(133, 7, 206);
+    text-decoration: underline solid rgb(96, 5, 5);
+}
+
+.result{
+    font-size: 30px;
+    color: rgb(255, 88, 11);
+}
+.scale{
+    font-size: 25px;
+    color: rgb(52, 25, 135);
+    font-weight: 700;
+}
+
+.height-input{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 50px;
+}
+.het-con{
+    border: 3px solid rgb(145, 11, 150);
+    width: 150px;
+    padding: 15px ;
+    background-color: rgb(229, 192, 143);
+    border-radius: 13px;
+}
+.wet-con{
+    border: 3px solid rgb(145, 11, 150);
+    width: 150px;
+    padding: 10px ;
+    background-color: rgb(255, 223, 197);
+    border-radius: 13px;
+    margin: 0px auto;
+}
